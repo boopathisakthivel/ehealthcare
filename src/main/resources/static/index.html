@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Spring Boot Web Application</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container">
+        <form action="login">
+            <div>
+                <select name="utype">
+                    <option>Administrator</option>
+                    <option>Patient</option>
+                    <option>Doctor</option>
+                    <option>Pharmacy</option>
+                </select>
+            </div>
+            <div>
+                <label for="user">
+                    User
+                    <input name="user" type="text" />
+                </label>
+            </div>
+            <div>
+                <label for="pwd">
+                    Password
+                    <input name="pwd" type="text" />
+                </label>
+            </div>
+            <div>
+                <button class="btn btn-primary" type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
